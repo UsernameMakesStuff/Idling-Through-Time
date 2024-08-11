@@ -2,8 +2,39 @@
 
 html {
     font-family: 'Space Mono', monospace, sans-serif;
+    background-color: rgb(20, 21, 29);
+    color: lightslategrey;
+    text-align: center;
+}
+
+a {
+    color: royalBlue;
+}
+
+a:visited {
+    color: rebeccaPurple;
+}
+
+a:hover {
+    color: slateBlue;
 }
 
 .bold {
     font-weight: 800;
+}
+
+.lightBox {
+    outline-color: lightslategray;
+    outline-style: solid;
+    outline-width: 0.3em;
+    border-radius: 10%;
+}
+
+/* do NOT, under ANY CIRCUMSTANCES, rename this to .heavyBox */
+
+.darkBox {
+    outline-color: lightslategray;
+    outline-style: solid;
+    outline-width: 0.5em;
+    border-radius: 10%;
 }
