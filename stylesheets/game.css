@@ -7,6 +7,13 @@ html {
     text-align: center;
 }
 
+button {
+    font-family: 'Space Mono', monospace, sans-serif;
+    background-color: rgb(20, 21, 29);
+    color: lightslategrey;
+    text-align: center;
+}
+
 a {
     color: royalBlue;
 }
@@ -24,17 +31,65 @@ a:hover {
 }
 
 .lightBox {
-    outline-color: lightslategray;
-    outline-style: solid;
-    outline-width: 0.3em;
-    border-radius: 10%;
+    border: 0.2em solid lightslategray;
+    border-radius: 1em;
+    padding: 0.2em;
 }
 
-/* do NOT, under ANY CIRCUMSTANCES, rename this to .heavyBox */
-
 .darkBox {
-    outline-color: lightslategray;
-    outline-style: solid;
-    outline-width: 0.5em;
-    border-radius: 10%;
+    border: 0.5em solid lightslategray;
+    border-radius: 1em;
+    padding: 0.2em;
+}
+
+.fillBox {
+    background-color: lightslategray;
+    border: 0.5em solid lightslategray;
+    border-radius: 1em;
+    padding: 0.2em;
+}
+
+.line {
+    height: 1px;
+    border: 0.5em solid lightslategray;
+    border-radius: 1em;
+    padding: 0.2em;
+}
+
+.sharp {
+    border-radius: 0px;
+}
+
+.lessSharp {
+    border-radius: 0.5em;
+}
+
+.title {
+    font-size: 100px;
+    margin: 0.4em 0.7em;
+    margin-bottom: 0em;
+}
+
+.subtitle {
+    font-size: 45px;
+    margin: 0.2em 1.57em;
+}
+
+.menuButton {
+    margin: 0.8em;
+    padding: 0.6em 1em;
+    font-size: 20px;
+    width: 10em;
+}
+
+.normal {
+    color: lightslategray;
+}
+
+.normal:visited {
+    color: lightslategray;
+}
+
+.normal:hover {
+    color: lightslategray;
 }
