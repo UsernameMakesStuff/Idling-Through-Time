@@ -82,6 +82,24 @@ a:hover {
     width: 10em;
 }
 
+.console {
+    color: lightgreen;
+    background-color: rgb(20, 29, 25);
+    border-color:rgb(20, 29, 25);
+    text-align: left;
+    font-size: 35px;
+    margin: 0.2em 1.5em;
+}
+
+.consoleImg {
+    background-color: rgb(25, 38, 33);
+    border-color: rgb(20, 29, 25);
+    border-style: double;
+    vertical-align: middle;
+    margin-right: 0.3em;
+    opacity: 1;
+}
+
 .normal {
     color: lightslategray;
 }
