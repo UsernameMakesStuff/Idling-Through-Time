@@ -82,6 +82,14 @@ a:hover {
     width: 10em;
 }
 
+.menuButton:hover {
+    border-color: rgb(64, 75, 84);
+}
+
+.menuButton:active {
+    border-color: rgb(36, 44, 52);
+}
+
 .console {
     color: lightgreen;
     background-color: rgb(20, 29, 25);
