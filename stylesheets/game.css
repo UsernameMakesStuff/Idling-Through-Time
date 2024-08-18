@@ -49,6 +49,10 @@ a:hover {
     padding: 0.2em;
 }
 
+.subtle {
+    border-color: rgb(64, 75, 84);
+}
+
 .line {
     height: 1px;
     border: 0.5em solid lightslategray;
@@ -75,18 +79,18 @@ a:hover {
     margin: 0.2em 1.57em;
 }
 
-.menuButton {
+.styledButton {
     margin: 0.8em;
     padding: 0.6em 1em;
     font-size: 20px;
     width: 10em;
 }
 
-.menuButton:hover {
+.styledButton:hover {
     border-color: rgb(64, 75, 84);
 }
 
-.menuButton:active {
+.styledButton:active {
     border-color: rgb(36, 44, 52);
 }
 
